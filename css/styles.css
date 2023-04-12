@@ -259,8 +259,11 @@ body {
 .background-text-footer-studio {
   background-image: url('../img/Footer-bg-studio.jpg');
   background-color: var(--background-color);
-  height: 252px;
+  height: 200px;
   width: 100%;
+}
+
+.section-footer{
   display: flex;
 }
 
@@ -363,6 +366,9 @@ body {
 .main-nav {
   border: 1px solid rgba(236, 236, 236, 1);
   width: 100%;
+}
+
+.order-nav{
   display: flex;
   justify-content: space-between;
 }
@@ -418,12 +424,9 @@ body {
 .background-main {
   width: 100%;
   height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url('../img/Main-text-studio.jpg'),
     url('../img/Main-text-bg-studio.jpg');
-  background-size: 1200px 600px;
+  background-size: 100% 600px;
   background-repeat: no-repeat;
 }
 
@@ -431,18 +434,20 @@ body {
   background: rgba(47, 48, 58, 0.4);
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-main-flexbox {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .main-text-and-buttom {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .section-skills {
@@ -543,8 +548,7 @@ body {
   text-align: center;
 }
 /*------------------------------------------------------------------------------------------------------------*/
-.team-card {
-  width: 1200px;
+.section-team-card {
   height: 708px;
   background-color: var(--background-color-team);
   display: flex;
